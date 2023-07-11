@@ -1,7 +1,7 @@
 {
-  "name": "proj_upd",
+  "name": "restaurant-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "The fastest way to get started with Godspeed is by following the [Godspeed documentation](https://docs.mindgrep.com/).",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch ../gs_service/dist -r ../gs_service/dist/telemetry/tracing.js ../gs_service/dist/app.js | pino-pretty",
@@ -31,5 +31,14 @@
     "godspeed-crud-api-generator": "1.6.5",
     "newman": "^5.3.2",
     "openapi-to-postmanv2": "^3.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindgreppers/gs_project_template.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Mindgreppers/gs_project_template/issues"
+  },
+  "homepage": "https://github.com/Mindgreppers/gs_project_template#readme"
 }
